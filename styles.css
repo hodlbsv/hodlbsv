@@ -1,0 +1,179 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #e6b800;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, footer {
+    background-color: #252525;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e6b800;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d39e00;
+}
+
+.features {
+    /* Styles for the "Features" section */
+}
+
+.projects {
+    background-color: #1a1a1a;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project-box {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.project-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-box p {
+    font-size: 1em;
+}
+
+.bg-gold {
+    background-color: #e6b800; /* Dragon Gold color */
+    color: #000000;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-box {
+        padding: 10px;
+    }
+}
+
+/* article page */
+
+.article {
+    background-color: #1a1a1a;
+    padding: 40px 20px;
+}
+
+.article .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.article-title {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.article-body {
+    font-size: 1.2em;
+    color: #fff;
+    line-height: 1.6;
+    text-align: left;
+}
