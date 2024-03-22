@@ -19,6 +19,7 @@ a {
 
 a:hover {
     color: #fff;
+    background-color: #e6b800;
 }
 
 .container {
@@ -96,6 +97,12 @@ header, footer {
     /* Styles for the "Features" section */
 }
 
+.articlelink:hover {
+    background-color: #282727;
+    border-left: 1rem solid #282727;
+    border-radius: 6px;
+}
+
 .memes {
     background-color: #1a1a1a;
     padding: 80px 0;
@@ -141,6 +148,18 @@ header, footer {
     padding: 20px;
     text-align: center;
     border-radius: 6px;
+}
+
+.project-box:hover {
+    color: #d39e00;
+    background-color: #050505;
+
+}
+
+.bg-gold:hover {
+    color: #eaeaea;
+    background-color: #d39e00; /* Dragon Gold color */
+
 }
 
 .project-box img {
