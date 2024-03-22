@@ -110,6 +110,7 @@ header, footer {
 }
 
 .memes h2 {
+    font-size: 2em;
     color: #ffffff;
     margin-bottom: 40px;
 }
